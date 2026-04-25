@@ -1,8 +1,8 @@
-import path from 'node:path';
-import HtmlWebPackPlugin from 'html-webpack-plugin';
-import { fileURLToPath } from 'node:url';
+import path from 'node:path'
+import HtmlWebPackPlugin from 'html-webpack-plugin'
+import { fileURLToPath } from 'node:url'
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default {
 	mode: 'development',
@@ -47,4 +47,4 @@ export default {
 			filename: './index.html',
 		}),
 	],
-};
+}
